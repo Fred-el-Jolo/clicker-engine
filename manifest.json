@@ -1,0 +1,6 @@
+{
+  "name": "clicker-engine",
+  "short_name": "clicker-engine",
+  "start_url": "/",
+  "display": "standalone"
+}
