@@ -1,9 +1,8 @@
 // Import the LitElement base class and html helper function
 import { LitElement, html } from 'lit-element';
-import '../action-button/action-button';
 
 // Extend the LitElement base class
-class MyElement extends LitElement {
+class ActionButton extends LitElement {
 
   /**
    * Implement `render` to define a template for your element.
@@ -20,11 +19,10 @@ class MyElement extends LitElement {
      */
     return html`
       <!-- template content -->
-			<p>Fred was here !!!</p>
-			<action-button></action-button>
+			<button>YUP</button>
     `;
   }
 }
 // Register the new element with the browser.
-customElements.define('clicker-engine-app', MyElement);
+customElements.define('action-button', ActionButton);
 
